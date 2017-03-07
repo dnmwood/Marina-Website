@@ -3,10 +3,24 @@
 */
 
 html {
-  background-color: #EFEFEF;
+  background-color: #F2F2F2;
+  /*background-image: url("/Users/david/Desktop/PersonalProjects/Marina_website/css/images/natural-paper-background-texture-hd-5a0b.jpg");*/
 }
 
-h1, h2, .tagline {
+.whole-container {
+  /*background-color: #E3E2E2;*/
+  margin: auto;
+  padding: 10px;
+  /*width: 800px;*/
+  /*border: solid;
+  border-width: 1px;
+  border-top: 0px;
+  border-bottom: 0px;*/
+  /*box-shadow: 0 1px 1px 0px;*/
+  /*border-radius: 10px;*/
+}
+
+h1, h2, p, .tagline {
   font-family: 'Slabo 27px', serif;
   margin: auto;
 }
@@ -31,7 +45,7 @@ h1, h2, .tagline {
 
 .nav-menu {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   float: none;
   position: relative;
@@ -42,15 +56,17 @@ h1, h2, .tagline {
   display: inline-block;
   vertical-align: top;
   text-decoration: none;
-  margin: 0px 10px 10px 10px;
+  margin: 5px 10px 10px 10px;
   text-align: left;
 }
 
 a {
   font-size: 19px;
   text-decoration: none;
+  padding: 3px;
   opacity: 0.6;
   color: #303030;
+  border-radius: 5px;
 }
 
 /*HOVER*/
@@ -58,6 +74,7 @@ a {
 a:hover {
   opacity: 1;
   transform: scale(1.1);
+  background-color: #E2E0E0;
 }
 
 .social-media {
@@ -67,7 +84,7 @@ a:hover {
   /*border: solid;*/
   border-width: 2px;
   border-radius: 5px;
-  width: 60px;
+  width: 90px;
 
 }
 
@@ -91,4 +108,29 @@ a:hover {
   margin: auto;
   margin-top: -28px;
   margin-left: 18px;
+}
+
+/***********************
+******** CONTENT *******
+************************/
+
+.section-title {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+img {
+  padding: 10px;
+}
+
+p {
+  align-items: center;
+  font-size: 22px;
+  width: 650px;
+  padding: 5px;
+  /*background-color: #E2E0E0;*/
+  border-radius: 7px;
+  text-align: center;
 }
