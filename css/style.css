@@ -8,10 +8,8 @@ html {
 }
 
 .whole-container {
-  /*background-color: #E3E2E2;*/
   margin: auto;
   padding: 10px;
-
   /*width: 800px;*/
   /*border: solid;
   border-width: 1px;
@@ -28,7 +26,6 @@ h1, h2, p, .tagline {
 
 h3 {
   font-family: 'Merriweather', serif;
-  align-items: center;
   margin: auto;
 }
 
@@ -39,15 +36,9 @@ h3 {
 .banner {
   position: relative;
   text-align: center;
-  /*background-color: #DDDDDD;*/
   align-items: center;
   /*position: fixed;*/
   width: 100%;
-  /*margin: auto;*/
-  /*border: solid;*/
-  /*border-width: 2px;
-  border-radius: 3px;
-  box-shadow: 1px 0px 4px 0px;*/
 }
 
 .nav-menu {
@@ -124,6 +115,7 @@ a:hover {
 .section-title {
   margin: auto;
   padding: 15px;
+  font-size: 36px;
   text-align: center;
   align-items: center;
 }
@@ -134,15 +126,19 @@ img {
 
 p {
   align-items: center;
-  font-size: 22px;
+  font-size: 25px;
   width: 650px;
-  padding: 5px;
+  padding: 15px;
   /*background-color: #E2E0E0;*/
   border-radius: 7px;
   text-align: center;
 }
 
 .pop-boxes {
+  padding: 30px;
+  align-items: center;
+  margin: auto;
+  width: 370px;
 }
 
 .pop-box {
@@ -150,13 +146,17 @@ p {
   margin: auto;
   align-items: center;
   font-size: 14px;
-  padding: 5px;
+  padding: 30px;
   background-color: #E2E0E0;
+  border: solid;
+  border-width: 2px;
+  border-color: grey;
+  box-shadow: 2px 2px 2px 0px;
 }
 
 .out-border {
   padding: 1px;
   margin: auto;
   width: 700px;
-  background-color: #E2E0E0;
+  /*background-color: #E2E0E0;*/
 }
